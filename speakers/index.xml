@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Speakers | ICML2026</title>
+    <title>Speakers | ICML 2026 Workshop</title>
     <link>https://decision-making-offline2online-icml2026.github.io/speakers/</link>
       <atom:link href="https://decision-making-offline2online-icml2026.github.io/speakers/index.xml" rel="self" type="application/rss+xml" />
     <description>Speakers</description>
