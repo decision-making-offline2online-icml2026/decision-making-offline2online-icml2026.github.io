@@ -470,6 +470,36 @@
         
 
         <li class="nav-item">
+          <a class="nav-link  active" href="/schedule"><span>Schedule</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/dates"><span>Important Dates</span></a>
         </li>
 
@@ -544,9 +574,6 @@
 <div class="universal-wrapper">
   
     <div class="article-style"><!-- The workshop will be held on **Monday, 26th February, 2024** and all times are in **PST (Pacific Standard Time zone)**. The workshop location is **Room 110** and the poster session will be in **Room 301** from 4-6 PM. -->
-<p>The workshop location is <strong>Room 121B</strong> in Pennsylvania Convention Center, Philadelphia, Pennsylvania, USA.</p>
-<p>Each accepted paper will be presented in exactly one of the poster sessions listed below.</p>
-<p>Please find your poster session number in this list: <a href="https://docs.google.com/spreadsheets/d/1Bs1Qf0_GN_Pi4paprLydjuRitSQ-bb0Tu1V6-ECJ0WU/edit?usp=sharing" target="_blank" rel="noopener">Poster Session Link</a></p>
 <style>
 .schedule {
   max-width: 800px;
@@ -578,10 +605,35 @@
   flex-grow: 1;
 }
 
-.speaker { border-left-color: #3b82f6; }
-.poster { border-left-color: #22c55e; }
-.break { border-left-color: #f97316; }
-.panel { border-left-color: #a855f7; }
+.event ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.event ul li {
+  margin: 0.25rem 0;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.25rem;
+  margin-right: 0.35rem;
+}
+
+.badge-best { background: #fef3c7; color: #92400e; }
+.badge-candidate { background: #ede9fe; color: #5b21b6; }
+
+.speaker  { border-left-color: #3b82f6; }
+.poster   { border-left-color: #22c55e; }
+.break    { border-left-color: #f97316; }
+.panel    { border-left-color: #a855f7; }
+.oral     { border-left-color: #f59e0b; }
+.spotlight { border-left-color: #ec4899; }
 
 .legend {
   display: flex;
@@ -604,74 +656,128 @@
   border-radius: 50%;
 }
 
-.legend-speaker { background: #3b82f6; }
-.legend-poster { background: #22c55e; }
-.legend-break { background: #f97316; }
-.legend-panel { background: #a855f7; }
+.legend-speaker    { background: #3b82f6; }
+.legend-oral       { background: #f59e0b; }
+.legend-spotlight  { background: #ec4899; }
+.legend-poster     { background: #22c55e; }
+.legend-break      { background: #f97316; }
+.legend-panel      { background: #a855f7; }
 </style>
 </head>
 <body>
 <div class="schedule">
   <div class="schedule-item">
-    <div class="time">8:45 - 9:00</div>
+    <div class="time">8:00 - 8:15</div>
     <div class="event">Opening Remarks</div>
   </div>
   <div class="schedule-item speaker">
-    <div class="time">9:00 - 9:30</div>
-    <div class="event">Invited Speaker: Marinka Zitnik</div>
+    <div class="time">8:15 - 8:45</div>
+    <div class="event"><strong>Invited Talk:</strong> Sergey Levine</div>
   </div>
   <div class="schedule-item speaker">
-    <div class="time">9:30 - 10:00</div>
-    <div class="event">Invited Speaker: Le Song</div>
+    <div class="time">8:45 - 9:15</div>
+    <div class="event"><strong>Invited Talk:</strong> Aarti Singh</div>
+  </div>
+  <div class="schedule-item spotlight">
+    <div class="time">9:15 - 9:30</div>
+    <div class="event">
+      <strong>Spotlights (5 &times; 3 min)</strong>
+      <ul>
+        <li><em>Soft Forward-Backward Representations for Zero-shot Reinforcement Learning with General Utilities</em></li>
+        <li><em>From Offline Trajectories to Online Adaptation: A Multimodal JEPA Pretraining Study on Pokemon Red</em></li>
+        <li><em>Belief-Aware Decision Transformers for Offline-to-Online Decision-Making under Partial Observability: A Geosteering Case Study</em></li>
+        <li><em>XQCfD: Accelerating Fast Actor-Critic Algorithms with Prior Data and Prior Policies</em></li>
+        <li><em>Position: Offline-Dataset Evaluation for Online Decision-Making Needs an Identification Standard</em></li>
+      </ul>
+    </div>
   </div>
   <div class="schedule-item poster">
-    <div class="time">10:00 - 10:45</div>
-    <div class="event">Poster Presentations 1</div>
+    <div class="time">9:30 - 10:30</div>
+    <div class="event">Coffee Break / Poster Session</div>
   </div>
   <div class="schedule-item speaker">
-    <div class="time">10:45 - 11:15</div>
-    <div class="event">Invited Speaker: Sam Stanton</div>
+    <div class="time">10:30 - 11:00</div>
+    <div class="event"><strong>Invited Talk:</strong> Jacob Gardner</div>
   </div>
-  <div class="schedule-item speaker">
-    <div class="time">11:15 - 11:45</div>
-    <div class="event">Invited Speaker: Alexis Battle</div>
-  </div>
-  <div class="schedule-item poster">
-    <div class="time">11:45 - 12:30</div>
-    <div class="event">Poster Presentations 2</div>
+  <div class="schedule-item oral">
+    <div class="time">11:00 - 12:00</div>
+    <div class="event">
+      <strong>Oral Talks (6 &times; 10 min)</strong>
+      <ul>
+        <li><em>Pitfalls and Remedies for Multi-Task Bayesian Optimization</em></li>
+        <li><em>Can K Heads Explore Better Than One in Online Reinforcement Learning?</em></li>
+        <li><em>Practical Bayesian Optimization for Scientific Discovery</em></li>
+        <li><em>Rethinking Bayesian Optimization for Co-Optimizing LLM Training Configurations</em></li>
+        <li><em>Leveraging Instruction Tuning and Merging for Reasoning Model Adaptation</em></li>
+        <li><em>Cost-Aware Learning</em></li>
+      </ul>
+    </div>
   </div>
   <div class="schedule-item break">
-    <div class="time">12:30 - 13:30</div>
-    <div class="event">Lunch Break</div>
+    <div class="time">12:00 - 1:00</div>
+    <div class="event">Lunch (on your own)</div>
+  </div>
+  <div class="schedule-item speaker">
+    <div class="time">1:00 - 1:30</div>
+    <div class="event"><strong>Invited Talk:</strong> Eytan Bakshy</div>
+  </div>
+  <div class="schedule-item oral">
+    <div class="time">1:30 - 2:00</div>
+    <div class="event">
+      <strong>Oral Talks (3 &times; 10 min)</strong>
+      <ul>
+        <li><em>The Three Regimes of Offline-to-Online Reinforcement Learning</em></li>
+        <li><em>Molten Pot: Evaluations &amp; Datasets for Social Offline Reinforcement Learning</em></li>
+        <li><em>Hidden Failure Modes in Latent World-Model Planning from Offline Data</em></li>
+      </ul>
+    </div>
+  </div>
+  <div class="schedule-item spotlight">
+    <div class="time">2:00 - 2:30</div>
+    <div class="event">
+      <strong>Spotlights (10 &times; 3 min)</strong>
+      <ul>
+        <li><em>Efficient Cost-Aware LLM Evaluation via Bayesian Bandit Gittins Indices</em></li>
+        <li><em>Can We Really Learn One Representation to Optimize All Rewards?</em></li>
+        <li><em>Q-Flow: Stable and Expressive Reinforcement Learning with Flow-Based Policy</em></li>
+        <li><em>Uncertainty-Guided Reward Labeling for Reinforcement Learning under Limited Feedback</em></li>
+        <li><em>Boosting for Reinforcement Learning in Structured MDPs</em></li>
+        <li><em>Less Tuning, Better Planning: Simplifying Offline Model-Based Planning</em></li>
+        <li><em>Abstraction for Offline Goal-Conditioned Reinforcement Learning</em></li>
+        <li><em>Meta-GC-TTT: Training Offline Goal-Conditioned Policies for Test-Time Adaptation</em></li>
+        <li><em>Fast Rates for Offline Contextual Bandits with Forward-KL Regularization under Single-Policy Concentrability</em></li>
+        <li><em>Efficient Off-Policy RL for Video Generation via Forward-Consistent Reward Matching</em></li>
+      </ul>
+    </div>
   </div>
   <div class="schedule-item poster">
-    <div class="time">13:30 - 14:15</div>
-    <div class="event">Poster Presentations 3</div>
+    <div class="time">2:30 - 3:30</div>
+    <div class="event">Coffee Break / Poster Session</div>
   </div>
   <div class="schedule-item speaker">
-    <div class="time">14:15 - 14:45</div>
-    <div class="event">Invited Speaker: Romain Lopez</div>
+    <div class="time">3:30 - 4:00</div>
+    <div class="event"><strong>Invited Talk:</strong> Clara Wong-Fannjiang</div>
   </div>
   <div class="schedule-item speaker">
-    <div class="time">14:45 - 15:15</div>
-    <div class="event">Invited Speaker: Caroline Uhler</div>
+    <div class="time">4:00 - 4:30</div>
+    <div class="event"><strong>Invited Talk:</strong> Wen Sun</div>
   </div>
   <div class="schedule-item panel">
-    <div class="time">15:15 - 16:00</div>
-    <div class="event">Panel Session</div>
-  </div>
-  <div class="schedule-item poster">
-    <div class="time">16:00 - 17:00</div>
-    <div class="event">Poster Presentations 4</div>
-  </div>
-  <div class="schedule-item poster">
-    <div class="time">17:00 - 18:00</div>
-    <div class="event">Poster Presentations 5</div>
+    <div class="time">4:30 - 5:00</div>
+    <div class="event">Short Panel and Community Discussion</div>
   </div>
   <div class="legend">
     <div class="legend-item">
       <div class="legend-dot legend-speaker"></div>
-      <span>Invited Speakers</span>
+      <span>Invited Talks</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot legend-oral"></div>
+      <span>Oral Talks</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot legend-spotlight"></div>
+      <span>Spotlights</span>
     </div>
     <div class="legend-item">
       <div class="legend-dot legend-poster"></div>
